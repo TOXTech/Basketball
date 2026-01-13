@@ -88,6 +88,16 @@ body {
   margin-bottom: 20px;
   text-align: center;
 }
+.reset_btn {
+  background-color: #1b244a;
+  border: 1px solid #9aabd8;
+  padding: 10px 20px;
+  font-family: "Cursed Timer Ulil", sans-serif;
+  color: #9aabd8;
+  font-size: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 #gameWin {
   color: #11a8a3;
   font-size: 30px;
