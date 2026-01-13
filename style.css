@@ -70,6 +70,7 @@ body {
   font-size: 20px;
   border-radius: 5px;
   text-align: center;
+  cursor: pointer;
 }
 .title_div {
   display: flex;
