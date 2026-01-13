@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>BasketBall Scoreboard</title>
+  </head>
+  <body>
+    <div class="title_div">
+      <h1 class="title">BASKETBALL SCOREBOARD</h1>
+      <div class="all">
+        <div class="container">
+          <div class="teams">
+            <h3 class="place">HOME</h3>
+            <div class="scores_background">
+              <h4 class="scores" id="scoreHome">0</h4>
+            </div>
+            <div class="btns">
+              <button class="btn" onClick="add1tohome()">+1</button>
+              <button class="btn" onClick="add2tohome()">+2</button>
+              <button class="btn" onClick="add3tohome()">+3</button>
+            </div>
+          </div>
+          <div class="teams">
+            <h3 class="place">GUEST</h3>
+            <div class="scores_background">
+              <h4 class="scores" id="scoreGuest">0</h4>
+            </div>
+            <div class="btns">
+              <button class="btn" onClick="add1toguest()">+1</button>
+              <button class="btn" onClick="add2toguest()">+2</button>
+              <button class="btn" onClick="add3toguest()">+3</button>
+            </div>
+          </div>
+        </div>
+        <div class="reset_div">
+          <button class="reset_btn" onClick="resetScores()">RESET</button>
+          <p id="gameWin"></p>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
