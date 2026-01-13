@@ -15,6 +15,7 @@ body {
 }
 .all {
   background-color: #1b244a;
+  border-radius: 5px;
 }
 .container {
   width: 400px;
@@ -23,7 +24,6 @@ body {
   justify-content: space-around;
   background-color: #1b244a;
   align-items: center;
-  border-radius: 5px;
 }
 .teams {
   /* border: 2px dotted #fff; */
